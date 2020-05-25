@@ -114,6 +114,9 @@ public class TruckManagement {
                 System.out.println("Enter the chosen trunk's id: ");
                 int id = scanner.nextInt();
                 int time = getTimeById(id);
+                if(id <= 0){
+                    throw new IllegalArgumentException("Id must be greater than 0");
+                }
                 if(time == -1){
                     System.out.println("There isn't any truck with such id in a queue");
                 }
