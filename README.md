@@ -20,8 +20,8 @@ Project is created with Java.
 To run this project:
 * Download project to a chosen location on your computer.
 * Open a command prompt window and go to the directory where you saved the project.
-* Type ```$ javac TruckManagement.java``` and press enter to compile your code.
-* Type ```$ java TruckManagement``` to run program.
+* Type ```javac TruckManagement.java``` and press enter to compile your code.
+* Type ```java TruckManagement``` to run program.
 
 ## Using the program
 Now you are able to see the result printed on the window.
