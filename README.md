@@ -6,6 +6,7 @@ A system to manage customs clearance queue for trucks.
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Using the program](#using-the-program)
+* [Technical documentation](#technical-documentation)
 
 ## General info
 Trucks with different weights arrive at regular intervals for customs clearance, which consists of two stages.
@@ -33,3 +34,6 @@ Firstly, the truck is added to main queue, then it is placed in one of two queue
 If you want to check waiting time for an exact truck, you should enter '0'. Then you will be able to type truck id and the waiting time will be shown.
 
 If you enter something that isn't a positive integer, the program ends.
+
+## Technical documentation
+Technical documentatnion is placed in JavaDocs folder.
